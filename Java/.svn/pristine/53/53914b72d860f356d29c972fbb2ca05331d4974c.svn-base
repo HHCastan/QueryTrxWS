@@ -1,0 +1,18 @@
+#sql server INFORMESPOS
+dburl=jdbc:jtds:sqlserver://172.16.8.115:1433;databaseName=INFORMESPOS
+dbuser=saldospos
+dbpassword=saldospos
+driver=net.sourceforge.jtds.jdbc.Driver
+
+#sql server ENGAGE
+#LYTYdburl=jdbc:jtds:sqlserver://172.16.8.116:1433/engage;user=engage;password=flamingo
+LYTYdburl=jdbc:jtds:sqlserver://srvsql-pruebas:1433/engagepruebas;user=engage;password=flamingo
+LYTYdbuser=engage
+LYTYdbpassword=flamingo
+LYTYdriver=net.sourceforge.jtds.jdbc.Driver
+
+#sql server SICAF
+SICAFdburl=jdbc:jtds:sqlserver://172.16.8.115:1433/DB_SICAF;user=consultapos;password=nzcs6urC
+SICAFdbuser=consultapos
+SICAFdbpassword=nzcs6urC
+SICAFdriver=net.sourceforge.jtds.jdbc.Driver

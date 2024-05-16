@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mensajes>
+	<!-- Mensaje que se cargara al no coincidir con ningun otro -->
+	<defecto value="36"/>
+	<!-- El mensaje es el que aparecera en BASIC, los patrones han de hacerse si se
+        domino expresiones regulares, o valores uno por uno, si se quiere hacer eso -->
+	<mensaje value="701">
+		<!-- DB MAESTRO AV VILLAS --> 
+		<patrones>
+			<valor>601367</valor>
+		</patrones>
+	</mensaje>
+	<mensaje value="702">
+		<!-- CR MASTERCARD AV VILLAS -->
+		<patrones>
+			<patron>^(539828|547141|547142|522973|547513|539862|548567|521399|523577)</patron>
+		</patrones>
+	</mensaje>
+	<mensaje value="703">
+		<!-- CR VISA AV VILLAS -->
+		<patrones>
+			<patron>^(412706|496079|496080|496081|482451|470438|470439|470440)</patron>
+		</patrones>
+	</mensaje>
+	<mensaje value="711">
+		<!-- DB VISA BANCO DE BOGOTA -->
+		<patrones>
+			<patron>^(406238|419328|419329|421513|421544|423949|426732|450942|457320|457321|457563|457564|457602|457603|457604|457605|464620|491511|491602|491603|491614|499812|639613)</patron>
+		</patrones>
+	</mensaje>
+	<mensaje value="712">
+		<!-- CR MASTERCARD BANCO DE BOGOTA -->
+		<patrones>
+			<patron>^(401096|403722|403799|407665|411040|411041|411042|414529|426045|430274|433460|450668|457537|457542|459504|459505|459918|459919|465770|466090|470435|474630|477363|477364|485935|486412|486514|491273|491274|491275|491615|491616|491617|491625|491626|491628|493110|493111|496083)</patron>
+		</patrones>
+	</mensaje>
+	<mensaje value="712">
+		<!-- CR VISA BANCO DE BOGOTA -->
+		<patrones>
+			<patron>^(512069|512804|512827|515864|520137|520354|522104|523433|529198|531088|531122|531126|539612|540080|543862|548494|548940|552221|552865|553661)</patron>
+		</patrones>
+	</mensaje>
+	<mensaje value="721">
+		<!-- DB VISA BANCO DE OCCIDENTE -->
+		<patrones>
+			<patron>^(53071[0-9]|53072[0-9])</patron>
+		</patrones>
+	</mensaje>
+	<mensaje value="722">
+		<!-- CR VISA BANCO DE OCCIDENTE -->
+		<patrones>
+			<patron>^(400489|400490|400491|400608|417899|430485|431026|431027|434660|448388|466150|466151|475094|486454|486817|489911|489925|491330)</patron>
+		</patrones>
+	</mensaje>
+	<mensaje value="723">
+		<!-- CR MASTERCARD BANCO DE OCCIDENTE -->
+		<patrones>
+			<patron>^(512835|516282|516288|540625|541203|547385|549151|552256|558772)</patron>
+		</patrones>
+	</mensaje>
+	<mensaje value="730">
+		<!-- CR VISA BANCOLOMBIA -->
+		<patrones>
+			<patron>^(40998[3|4|5]|411054|441119|449188|45130[7|8|9]|45942[5|6|8]|485946)</patron>
+		</patrones>
+	</mensaje>
+	<mensaje value="730">
+		<!-- CR MASTER BANCOLOMBIA -->
+		<patrones>
+			<patron>^(517640|53037[1|2|3]|53069[3|4|6]|540691|541251|547062|547480|54915[7|8]|552588|553145)</patron>
+		</patrones>
+	</mensaje>
+	<mensaje value="730">
+		<!-- CR AMEX BANCOLOMBIA -->
+		<patrones>
+			<patron>^(37781[3|4|5|6]|37784[3|4|5|7|8]|377886)</patron>
+		</patrones>
+	</mensaje>
+	<mensaje value="730">
+		<!-- MASTERCARD DEBITO BANCOLOMBIA-->
+		<patrones>
+			<patron>53069[0|1|2|5]|601660</patron>
+		</patrones>
+	</mensaje>
+	<mensaje value="740">
+		<!-- DINERS DAVIVIENDA -->
+		<patrones>
+			<patron>^(360000|360220|360301|360320|360324|360477|360480|360730|360732|360751)</patron>
+		</patrones>
+	</mensaje>
+	<mensaje value="740">
+		<!-- VISA DAVIVIENDA -->
+		<patrones>
+			<patron>^(402530|423150|423151|424488|424529|425817|42838[4|5|6|7|8|9]|42839[0|1|2]|439116|441080|447198|448390|45598[1|2|3|6]|459321|46481[5|7|8|9]|46482[0|1|2]|472044|475101|485630|49164[6|7])</patron>
+		</patrones>
+	</mensaje>
+	<mensaje value="740">
+		<!-- MASTERCARD DAVIVIENDA -->
+		<patrones>
+			<patron>^(232002|517796|524052|524708|526557|526943|527402|540692|541083|541694|547130|547246|547482|549156|552201|552336|554531|559225)</patron>
+		</patrones>
+	</mensaje>
+	<mensaje value="740">
+		<!-- DEBITO DAVIVIENDA -->
+		<patrones>
+			<patron>^(455370|455371|589514|603613|881017)</patron>
+		</patrones>
+	</mensaje>
+	<mensaje value="71">
+		<!-- TARJETAS TUYA -->
+		<patrones>
+			<patron>^(590309|570423|590312|555845|522679|526522|526517|521897|524238|510120|537068)</patron>
+		</patrones>
+	</mensaje>
+	<mensaje value="73">
+		<!-- NEQUI VISA BANCOLOMBIA --> 
+		<valores>
+			<valor>409355</valor>
+		</valores>
+	</mensaje>
+	<mensaje value="73">
+		<!-- NEQUI MASTERCARD BANCOLOMBIA--> 
+		<valores>
+			<valor>518092</valor>
+		</valores>
+	</mensaje>
+	<mensaje value="37">
+		<!-- COMPENSAR -->
+		<patrones>
+			<patron>^(603959|629986|636262|636612|636476)</patron>
+		</patrones>
+	</mensaje>
+	<mensaje value="37">
+		<!-- COMPENSAR -->
+		<patrones>
+			<patron>^(603959|629986|636262|636612|636476)</patron>
+		</patrones>
+	</mensaje>
+	<mensaje value="750">
+		<!-- Banco SerFinanza -->
+		<patrones>
+			<patron>^(527474|542060|543280|636853|899800|899801)</patron>
+		</patrones>
+	</mensaje>
+
+
+	<mensaje value="31">
+		<!-- MAESTRO -->
+		<patrones>
+			<patron>^50\d{4}</patron>
+		</patrones>
+	</mensaje>
+	<mensaje value="31">
+		<!-- MAESTRO -->
+		<patrones>
+			<patron>^(5[6-9]|6[0-9])\d{4}</patron>
+		</patrones>
+	</mensaje>
+	<mensaje value="32">
+		<!-- V.ELECTRON -->
+		<valores>
+			<valor>417500</valor>
+		</valores>
+	</mensaje>
+	<mensaje value="32">
+		<!-- V.ELECTRON-->
+		<patrones>
+			<patron>^(4026|4405|4508|4844|4913|4917)\d{2}</patron>
+		</patrones>
+	</mensaje>
+	<mensaje value="32">
+		<!-- V.ELECTRON-->
+		<patrones>
+			<patron>40055[3|8]</patron>
+		</patrones>
+	</mensaje>
+	<mensaje value="32">
+		<!-- VISA DEBIT Citibank-->
+		<patrones>
+			<patron>49886[0|2]</patron>
+		</patrones>
+	</mensaje>
+	<mensaje value="41">
+		<!-- MASTERCARD -->
+		<patrones>
+			<patron>^5[1-5]\d{4}</patron>
+		</patrones>
+	</mensaje>
+	<mensaje value="42">
+		<!-- VISA -->
+		<patrones>
+			<patron>^4[0-9]\d{4}</patron>
+		</patrones>
+	</mensaje>
+	<mensaje value="43">
+		<!-- DINERS -->
+		<patrones>
+			<patron>^30([0-4]|9)\d{3}</patron>
+		</patrones>
+		<valores>
+			<valor>305000</valor>
+		</valores>
+	</mensaje>
+	<mensaje value="43">
+		<!--DINERS -->
+		<patrones>
+			<patron>^(36|38|39)\d{4}</patron>
+		</patrones>
+	</mensaje>
+	<mensaje value="44">
+		<!-- AMEX -->
+		<patrones>
+			<patron>^(34|37)\d{4}</patron>
+		</patrones>
+	</mensaje>
+	<mensaje value="57">
+		<!-- BIG PASS -->
+		<patrones>
+			<patron>^606076</patron>
+		</patrones>
+	</mensaje>
+	<mensaje value="58">
+		<!-- SODEXO  -->
+		<patrones>
+			<patron>^636215</patron>
+		</patrones>
+	</mensaje>
+	<mensaje value="34">
+		<!-- SOMOS EPM  -->
+		<patrones>
+			<patron>^881006</patron>
+		</patrones>
+	</mensaje>
+</mensajes>

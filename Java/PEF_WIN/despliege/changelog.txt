@@ -1,0 +1,106 @@
+PEF 1.2.3
+    -Redención de vouchers
+    -Mejoras en el manejo de regalos (reward categoría 5)
+PEF 1.2.4
+    -añadidos los regalos
+PEF 1.2.5
+    -Leyendo del UFPAR
+    -Mejoras a la hora de hacer transacciones con regalos y rewards normales 
+PEF 1.2.6
+    -Cambiando la forma de leer del UFPAR
+PEF 1.2.7
+    -bug#4334.
+PEF 1.2.8
+    -Se añaden algunos comentarios al código (algunos de sebastian)
+    -Corrección al Bug 4490, trasladando la ubicación por defecto del log al directorio M:/PEF/log, los ubicación de los logs
+PEF 1.2.9
+    -contingencias
+    -Desaparece paquete pruebas
+    -Hace la primera consulta, para que la consulta realizada, no demore tanto (aparentemente)
+    -añadida consulta de tipo 10 (de fecha?)
+    -Corrección arrayoutofboundexception a la hora de consultar item, si estan intercalados items y vouchers
+PEF 1.2.10_beta(patch, para que funcione)
+    -Solo es un injerto, con el log de la version 1.2.7 y el funcionamiento del pef de la version 1.2.9
+PEF 1.2.10
+    -al final queda lo de los logs antiguos, debido al miedo a crear branchs
+    -Se corrige el problema que había con los vouchers, tratando con estructuras dinámicas (Listas) en vez de estructuras estáticas (Arrays)
+PEF 1.2.11
+    -Se retiran del PEF las clases y paquetes concernientes al LOG, manejado ahora desde el libaseII
+PEF 1.3 
+    -Pef y Log separados
+    -Se envía en la respuesta de EOT un indicador a Basic de que hay cupones
+PEF 1.3.1
+    -Se tratan listas vacías de artículos
+PEF 1.3.2
+    -Mejora algoritmo Vouchers
+PEF 1.3.3
+    -Corrije Bug #5093
+PEF 1.3.4
+    -Imprime en log mensaje SOAP de petición
+    -Corrije Bug #5383
+PEF 1.3.5
+    -Se adapta a versión 7 de FAL (?)
+    -El PEF puede tratar con valores decimales
+PEF 1.3.6
+    -Se determina, por medio de un método del OS4690, cuando trabajar con decimales y cuando con enteros
+PEF 1.3.7
+    -Agregados los card swipes (La consulta de cliente ahora se hace con un function ID de 0302)
+    -Corregido un problema con los servidores de respaldo, se poseía un problema, ya que se acumulaba el indice antes de optener los datos (lo que tenía sentido antes, pero con algunas modificaciones no)
+PEF 1.3.8
+    - Se corrige el comportamiento del medio de pago: se multiplica por 100 si no se trabajan decimales, si la terminal trabaja con decimales, se pasa el dato como llegue
+    - Consulta de prueba con valores vacíos, excepto la hora y la fecha de la transacción
+    - Se realiza un reitento en caso de no recibirse el auditnumber (TODO: hacerlo parametrizable, y validar un nullpointer)
+    - Voucher de respaldo parametrizable
+    - Corrección problema de descuadre con los reportes de las consultas de Medio de pago e Item(techo) vs la del EOT (redondeo aritmético)
+PEF 1.4.1
+    -Almacena valores de ufpar y conexión de manera interna.
+    -LoadLib completamente erradico de dentro del PEF
+    -Algunas correcciones de tiempos (muy pocas y apenas perceptibles)
+    -Bonos especiales
+    -Devoluciones Loyalty (las específicas de supermaxi no las maneja el PEF)
+    (Versiones anteriores...revisar CVS)
+PEF 1.4.2.1
+    -Corrección Reintentos
+    -Al reintentar se perdían los mensajes de error publicados a Loyalty, corregido (Trabajo futuro, enmascararlos para indicar que es error de procesamiento en Loyalty)
+    -Se añaden mensajes que indiquen errores de Loyalty
+    -Devoluciones, correcciones, mejoramiento en la lógica, cambio en las tramas (Flamingo)
+    -Actualización de bibliotecas autogeneradas del axis a versión 31
+    -Logs en nivel info explicitos para evitar logs muy grandes en producción
+PEF 1.4.2.2
+    -Errores con los tipos de datos y los formatos
+    -Devuelve cero cuando no encuentro devoluciones (Flamingo)
+    -Maldito com.linea.util.Log
+PEF 1.4.2.3
+    -Más logs en nivel info 
+PEF 1.4.2.4:
+    -Se procesan los mensajes a tiquete por promoción
+    -Problema de 1 peso descuadrado de descuento al margen respecto al resumen de campañas
+    -Consulta 11, que devuelve la información de cliente de la última consulta a Loyalty
+PEF 1.4.2.5
+    -Más logs nivel info
+    -Corrección peso descuadrado entre dencuento margen y total por artículo
+    -Se tratan los problemas de conexión para que la transacción trabaje con el último reward consultado.
+PEF 1.4.2.11
+    --Soporte para tramas largas
+PEF 1.4.3.8
+    -Añadido mensaje 12, para recuparar información cuando Loyalty elimine el descuento dado.
+PEF 1.4.4.0
+    -Mejoras en el procesamiento de tramas largas
+    -Separación de ciertos procedimientos en métodos aparte (manejo vouchers)
+    -Trama respuesta a basic debe contener tanto indicativo de voucher, como resumen de descuento al final, tanto en respaldo (12), como en fin de transacción (3)
+PEF 1.4.4.3 
+    -Correcciones a las consultas, para que pueda trabajar con bonos especiales y otras cosas
+PEF 1.4.4.4
+    -Corrección con manejo de decimales al manejo de descuento asociado al margen
+PEF 1.4.4.5
+    -Ahora añadido un tratamiento en el constructor, así como corrección al método trama
+PEF 1.5.0.0
+    -Separación librerías ws del core del pef
+    -Pasando a trabajar con axis2 (todavía no está listo)
+    (Objetivos)
+    -Creación paquete Util
+    -Retirar algunas clases y enviarlas a LibaseII
+    -nombres de ingles a español
+    -cambios nombres de clase a español
+    -Modificaciones a los nombres de paquetes(Algunos)(com.lineai.PEF.core y com.lineai.PEF.logicaNegocio), el Voucher movido a com.lineai.PEF.logicaNegocio.
+    -PEF sobre Mule (Rigel)

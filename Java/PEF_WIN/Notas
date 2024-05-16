@@ -1,0 +1,15 @@
+Version: 1.2
+Notas:
+	1.- Crear variable de entonro PEFLIB, que apunte a ruta_PEF/lib
+	2.- Definir en ADX-SDT1:ADXHSIHF:DAT dos varialbes PEPrimary y PESecondary, con valores iguales a direcciones ip del web service principal, y una de respaldo
+	3.- Los nombres de las librerías, por restricciones del SO (se supone), deben tener una longitud menor o igual a 4 caracteres
+	4.- Si NoDescontable = 1, no se aplica descuento, en todos los demás casos, sí.
+	5.- Crear variable de entorno PEFLOG, que apunte a ruta_PEF/LOG
+	6.- Cambios en las librerías del Axis
+	
+Funcionalidades:
+	1.- Consultas de clientes, items, payments, con descuentos parciales por cada consulta (cada consulta puede modificar descuentos anteriores)
+	2.- compilado para ambiente gráfico
+	3.- Permite Trabajar con terminales standalone (o eso se supone)
+	4.- Admite devoluciones(no del todo seguro) y redimir vouchers
+	

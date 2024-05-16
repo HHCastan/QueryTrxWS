@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="schemaorg_apache_xmlbeans/system/" kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="S:/USUARIO/Descargas/lib/log4j.jar"/>
+	<classpathentry kind="lib" path="C:/LoyaltyV7/lib/commons-lang.jar"/>
+	<classpathentry kind="lib" path="S:/USUARIO/Descargas/lib/commons/comm-bea.jar"/>
+	<classpathentry kind="lib" path="S:/USUARIO/Descargas/lib/jtds-1.2.8.jar"/>
+	<classpathentry kind="lib" path="S:/USUARIO/Descargas/lib/axis-1_4/lib/jaxrpc.jar"/>
+	<classpathentry kind="lib" path="S:/USUARIO/Descargas/lib/axis-1_4/lib/saaj.jar"/>
+	<classpathentry kind="lib" path="S:/USUARIO/Descargas/lib/axis/axis-saaj-1.2.1.jar"/>
+	<classpathentry kind="lib" path="S:/USUARIO/Descargas/lib/axis/geronimo-stax-api_1.0_spec-1.0.1.jar"/>
+	<classpathentry kind="lib" path="S:/USUARIO/Descargas/lib/axis/javax.xml.stream-1.0.1.jar"/>
+	<classpathentry kind="lib" path="S:/USUARIO/Descargas/lib/axis/jaxrpc.jar"/>
+	<classpathentry kind="lib" path="S:/USUARIO/Descargas/lib/axis/mail-1.4.jar"/>
+	<classpathentry kind="lib" path="S:/USUARIO/Descargas/lib/axis/woden-api-1.0M8.jar"/>
+	<classpathentry kind="lib" path="S:/USUARIO/Descargas/lib/axis/wsdl4j.jar"/>
+	<classpathentry kind="lib" path="S:/USUARIO/Descargas/lib/axis/wstx-lgpl-3.2.3.jar"/>
+	<classpathentry kind="lib" path="S:/USUARIO/Descargas/lib/axis/XmlSchema-1.4.2.jar"/>
+	<classpathentry kind="lib" path="S:/USUARIO/Descargas/lib/swingx-0.9.3.jar"/>
+	<classpathentry kind="lib" path="S:/USUARIO/Descargas/lib/iTextPDF/itextpdf-5.2.0.jar"/>
+	<classpathentry kind="lib" path="S:/USUARIO/Descargas/lib/slf4j-api-1.7.2.jar"/>
+	<classpathentry kind="lib" path="S:/USUARIO/Descargas/lib/slf4j-simple-1.7.2.jar"/>
+	<classpathentry kind="lib" path="S:/USUARIO/Descargas/lib/zxing-core-3.3.3.jar"/>
+	<classpathentry kind="lib" path="S:/USUARIO/Descargas/lib/javase-3.3.3.jar"/>
+	<classpathentry kind="lib" path="S:/USUARIO/Descargas/lib/bridj-0.7.0.jar"/>
+	<classpathentry kind="lib" path="S:/USUARIO/Descargas/lib/jcalendar-1.4.jar"/>
+	<classpathentry kind="lib" path="S:/USUARIO/Descargas/lib/axis2-1.7.9/lib/xmlbeans-2.6.0.jar"/>
+	<classpathentry kind="lib" path="S:/USUARIO/Descargas/lib/axis2-1.7.9/lib/axis2-kernel-1.7.9.jar"/>
+	<classpathentry kind="lib" path="S:/USUARIO/Descargas/lib/axis2-1.7.9/lib/axiom-api-1.2.21.jar"/>
+	<classpathentry kind="lib" path="S:/USUARIO/Descargas/lib/axis2-1.7.9/lib/axis2-xmlbeans-1.7.9.jar"/>
+	<classpathentry kind="lib" path="S:/USUARIO/Descargas/lib/axis2-1.7.4/lib/neethi-3.0.3.jar"/>
+	<classpathentry kind="lib" path="S:/USUARIO/Descargas/lib/webcam-capture-0.3.12.jar"/>
+	<classpathentry kind="lib" path="S:/USUARIO/Descargas/lib/axis2-1.7.9/lib/woden-core-1.0M10.jar"/>
+	<classpathentry kind="lib" path="S:/USUARIO/Descargas/lib/axis2-1.7.9/lib/axiom-impl-1.2.21.jar"/>
+	<classpathentry kind="lib" path="S:/USUARIO/Descargas/lib/axis2-1.7.9/lib/axis2-adb-1.7.9.jar"/>
+	<classpathentry kind="lib" path="S:/USUARIO/Descargas/lib/axis2-1.7.9/lib/axis2-transport-http-1.7.9.jar"/>
+	<classpathentry kind="lib" path="S:/USUARIO/Descargas/lib/axis2-1.7.9/lib/axis2-transport-local-1.7.9.jar"/>
+	<classpathentry kind="lib" path="S:/USUARIO/Descargas/lib/axis2-1.7.4/lib/httpcore-4.4.4.jar"/>
+	<classpathentry kind="lib" path="S:/USUARIO/Descargas/lib/axis2-1.7.9/lib/httpclient-4.5.3.jar"/>
+	<classpathentry kind="lib" path="S:/USUARIO/Descargas/lib/axis2-1.7.9/lib/apache-mime4j-core-0.7.2.jar"/>
+	<classpathentry kind="lib" path="S:/USUARIO/Descargas/lib/Canopus.jar"/>
+	<classpathentry kind="lib" path="S:/USUARIO/Descargas/lib/axis/axis.jar"/>
+	<classpathentry kind="lib" path="S:/USUARIO/Descargas/lib/axis2-1.7.9/lib/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="S:/USUARIO/Descargas/lib/axis/commons-discovery-0.2.jar"/>
+	<classpathentry kind="lib" path="S:/USUARIO/Descargas/lib/libase.jar"/>
+	<classpathentry kind="lib" path="resources"/>
+	<classpathentry kind="lib" path="S:/USUARIO/Descargas/lib/axis2-1.7.9/lib/commons-httpclient-3.1.jar"/>
+	<classpathentry kind="lib" path="S:/USUARIO/Descargas/lib/axis2-1.7.9/lib/commons-codec-1.2.jar"/>
+	<classpathentry kind="lib" path="S:/USUARIO/Descargas/lib/axis2-1.7.9/lib/axis2-jaxws-1.7.9.jar"/>
+	<classpathentry kind="lib" path="S:/USUARIO/Descargas/lib/axis2-1.7.9/lib/axis2-metadata-1.7.9.jar"/>
+	<classpathentry kind="lib" path="S:/USUARIO/Descargas/lib/axis2-1.7.9/lib/xml-resolver-1.2.jar"/>
+	<classpathentry kind="lib" path="S:/USUARIO/Descargas/lib/ojdbc8.jar"/>
+	<classpathentry kind="lib" path="S:/USUARIO/Descargas/lib/jcifs-1.3.19.jar"/>
+	<classpathentry kind="lib" path="S:/USUARIO/Descargas/lib/postgresql-42.2.14.jar"/>
+	<classpathentry kind="lib" path="S:/USUARIO/Descargas/lib/json-simple-1.1.1.jar"/>
+	<classpathentry kind="lib" path="S:/USUARIO/Descargas/lib/Jackson 2.9.5/jackson-databind-2.9.5.jar"/>
+	<classpathentry kind="lib" path="S:/USUARIO/Descargas/lib/Jackson 2.9.5/jackson-core-2.9.5.jar"/>
+	<classpathentry kind="lib" path="S:/USUARIO/Descargas/lib/Jackson 2.9.5/jackson-annotations-2.9.0.jar"/>
+	<classpathentry kind="lib" path="S:/USUARIO/Descargas/lib/axis2-1.7.9/lib/activation-1.1.jar"/>
+	<classpathentry kind="lib" path="S:/USUARIO/Descargas/lib/axis2-1.7.9/lib/jaxb-api-2.2.6.jar"/>
+	<classpathentry kind="lib" path="S:/USUARIO/Descargas/lib/axis2-1.4.1/lib/axis2-jws-api-1.4.1.jar"/>
+	<classpathentry kind="lib" path="S:/USUARIO/Descargas/lib/jaxws-api-2.3.1.jar"/>
+	<classpathentry kind="lib" path="S:/USUARIO/Descargas/lib/motor-desciciones.jar"/>
+	<classpathentry kind="lib" path="S:/USUARIO/Descargas/lib/rest-client-1.2.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

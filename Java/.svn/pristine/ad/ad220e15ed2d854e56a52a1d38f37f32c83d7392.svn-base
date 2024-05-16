@@ -1,0 +1,14 @@
+log4j.rootLogger=INFO, console, remoteCommand
+
+# log
+log4j.appender.remoteCommand=org.apache.log4j.RollingFileAppender
+log4j.appender.remoteCommand.File=C:/TMP/remoteCommand.log
+log4j.appender.remoteCommand.MaxFileSize=2MB
+log4j.appender.remoteCommand.MaxBackupIndex=5 
+log4j.appender.remoteCommand.layout=org.apache.log4j.PatternLayout
+log4j.appender.remoteCommand.layout.ConversionPattern=<%d{dd-MMM-yyyy HH:mm:ss,SSS}> [%-5p] [%C{1}] - %m%n
+
+log4j.appender.console=org.apache.log4j.ConsoleAppender
+log4j.appender.console.Target=System.out
+log4j.appender.console.layout=org.apache.log4j.PatternLayout
+log4j.appender.console.layout.ConversionPattern=<%d{dd-MMM-yyyy HH:mm:ss,SSS}> [%-5p] [%C{1}] - %m%n

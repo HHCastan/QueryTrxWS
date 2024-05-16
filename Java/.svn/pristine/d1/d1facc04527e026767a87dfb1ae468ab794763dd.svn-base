@@ -1,0 +1,62 @@
+
+package com.fal.ws;
+
+import javax.xml.bind.annotation.XmlAccessType;
+import javax.xml.bind.annotation.XmlAccessorType;
+import javax.xml.bind.annotation.XmlType;
+
+
+/**
+ * <p>Clase Java para voucherDto complex type.
+ * 
+ * <p>El siguiente fragmento de esquema especifica el contenido que se espera que haya en esta clase.
+ * 
+ * <pre>
+ * &lt;complexType name="voucherDto">
+ *   &lt;complexContent>
+ *     &lt;extension base="{http://impl.ws.fal.com/}falBaseDTO">
+ *       &lt;sequence>
+ *         &lt;element name="voucherCode" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
+ *       &lt;/sequence>
+ *     &lt;/extension>
+ *   &lt;/complexContent>
+ * &lt;/complexType>
+ * </pre>
+ * 
+ * 
+ */
+@XmlAccessorType(XmlAccessType.FIELD)
+@XmlType(name = "voucherDto", propOrder = {
+    "voucherCode"
+})
+public class VoucherDto
+    extends FalBaseDTO
+{
+
+    protected String voucherCode;
+
+    /**
+     * Obtiene el valor de la propiedad voucherCode.
+     * 
+     * @return
+     *     possible object is
+     *     {@link String }
+     *     
+     */
+    public String getVoucherCode() {
+        return voucherCode;
+    }
+
+    /**
+     * Define el valor de la propiedad voucherCode.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link String }
+     *     
+     */
+    public void setVoucherCode(String value) {
+        this.voucherCode = value;
+    }
+
+}

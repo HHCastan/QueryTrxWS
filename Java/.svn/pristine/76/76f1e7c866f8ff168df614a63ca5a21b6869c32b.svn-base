@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+
+	<bean id="levantador" class="com.lds.disparador.atlas.IniciadorPrincipales" init-method="init">
+		<property name="clases">
+			<list>
+				<!-- Comentar el map si se trabaja con entorno gráfico (bis) -->
+				<map>
+					<entry key="clase" value="com.ibm.sureview.sa.SACustomerGUI" />
+					<entry key="retraso" value="10" />
+					<entry key="parametros">
+						<list>
+						</list>
+					</entry>
+				</map>
+				<!-- <map> <entry key="clase" value="com.linea.test.TestWriteAtlas" /> <entry key="retraso" value="2"/> <entry key="metodo" 
+					value="writeToFile"/> </map> -->
+				<!-- Recarga Celular -->
+				<!-- <map> <entry key="clase" value="com.appl.ApplKernel" /> <entry key="retraso" value="2"/> <entry key="metodo" value="threader"/> 
+					</map> -->
+			</list>
+		</property>
+	</bean>
+	<!-- Manejador gráfico -->
+
+	<bean id="prueba" class="com.lds.disparador.registro.manejadores.ManejadorGrafico" init-method="registraMetodos">
+		<property name="retraso" value="30" />
+		<property name="listaClases">
+			<list>
+				<map>
+					<entry key="nombreClase" value="com.lineai.posappframework.PEF.userdefined.WS_FALSolutions.Core" />
+					<entry key="metodos">
+						<list>
+							<map>
+								<entry key="nombreMetodo" value="execute" />
+								<entry key="parametros">
+									<list>
+										<value>Prueba</value>
+									</list>
+								</entry>
+							</map>
+						</list>
+					</entry>
+				</map>
+				<map>
+					<entry key="nombreClase" value="com.appl.ApplKernel" />
+					<entry key="metodos">
+						<list>
+							<map>
+								<entry key="nombreMetodo" value="threader" />
+								<entry key="parametros">
+									<list>
+										<value>Prueba</value>
+									</list>
+								</entry>
+							</map>
+						</list>
+					</entry>
+				</map>
+				<!-- Impresion de Vouchers - Flamingo -->
+				<map>
+					<entry key="nombreClase" value="com.lds.terminalutilities.VoucherGenerator" />
+					<entry key="metodos">
+						<list>
+							<map>
+								<entry key="nombreMetodo" value="generate" />
+								<entry key="parametros">
+									<list>
+										<value>Prueba</value>
+									</list>
+								</entry>
+							</map>
+						</list>
+					</entry>
+				</map>
+			</list>
+		</property>
+	</bean>
+	<!-- <bean id="prueba2" class="com.linea.test.Clase2" init-method="prueba" /> -->
+
+</beans>
+
+

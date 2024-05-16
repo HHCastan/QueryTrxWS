@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<POSAppFramework>
+
+	<WS>
+		<IP>
+			<!--<P name="ip" value="192.168.147.62" port="8080" ruta="/falws/falws" 
+				timeout="15" description="IP principal"/> -->
+			<P name="ip" value="PEPrimary" port="8080" ruta="/falws/falws"
+				timeout="15" description="IP principal" />
+			<!-- 0 or more alternative address IP -->
+			<A name="ip" value="PESecundary" port="8090" ruta="/falws/falws"
+				timeout="15" description="IP alterna" central="1" />
+		</IP>
+	</WS>
+</POSAppFramework>

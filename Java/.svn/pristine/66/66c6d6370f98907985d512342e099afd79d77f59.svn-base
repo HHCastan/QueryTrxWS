@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/J2SE-1.4"/>
+	<classpathentry kind="lib" path="S:/TMP/SUREVIEW.jar"/>
+	<classpathentry kind="lib" path="C:/Users/hcastaneda/.m2/repository/commons-logging/commons-logging/1.0.4/commons-logging-1.0.4.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="commons-logging"/>
+			<attribute name="maven.artifactId" value="commons-logging"/>
+			<attribute name="maven.version" value="1.0.4"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="S:/TMP/JATTACH.jar"/>
+	<classpathentry kind="lib" path="C:/Users/hcastaneda/Downloads/lib/log4j.jar"/>
+	<classpathentry kind="lib" path="S:/TMP/JPOS14.jar"/>
+	<classpathentry kind="lib" path="C:/Users/hcastaneda/Downloads/lib/OS4690.ZIP"/>
+	<classpathentry kind="lib" path="C:/Users/hcastaneda/Downloads/lib/AEF.JAR"/>
+	<classpathentry kind="lib" path="C:/Users/hcastaneda/Downloads/lib/libase.jar"/>
+	<classpathentry kind="lib" path="C:/Users/hcastaneda/Downloads/lib/AEFIO.JAR"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

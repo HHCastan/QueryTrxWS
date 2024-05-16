@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="S:/USUARIO/Descargas/lib/axis2-1.7.4/lib/log4j-1.2.15.jar"/>
+	<classpathentry kind="lib" path="S:/USUARIO/Descargas/lib/edtftpj-2.5.0/lib/edtftpj.jar"/>
+	<classpathentry kind="lib" path="S:/USUARIO/Descargas/lib/jtds-1.2.8.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

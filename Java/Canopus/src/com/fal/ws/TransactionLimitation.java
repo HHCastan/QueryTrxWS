@@ -1,0 +1,73 @@
+
+package com.fal.ws;
+
+import javax.xml.bind.annotation.XmlAccessType;
+import javax.xml.bind.annotation.XmlAccessorType;
+import javax.xml.bind.annotation.XmlType;
+
+
+/**
+ * <p>Clase Java para transactionLimitation complex type.
+ * 
+ * <p>El siguiente fragmento de esquema especifica el contenido que se espera que haya en esta clase.
+ * 
+ * <pre>
+ * &lt;complexType name="transactionLimitation">
+ *   &lt;complexContent>
+ *     &lt;extension base="{http://impl.ws.fal.com/}falBaseDTO">
+ *       &lt;sequence>
+ *         &lt;element name="category" type="{http://www.w3.org/2001/XMLSchema}int"/>
+ *         &lt;element name="limit" type="{http://www.w3.org/2001/XMLSchema}double"/>
+ *       &lt;/sequence>
+ *     &lt;/extension>
+ *   &lt;/complexContent>
+ * &lt;/complexType>
+ * </pre>
+ * 
+ * 
+ */
+@XmlAccessorType(XmlAccessType.FIELD)
+@XmlType(name = "transactionLimitation", propOrder = {
+    "category",
+    "limit"
+})
+public class TransactionLimitation
+    extends FalBaseDTO
+{
+
+    protected int category;
+    protected double limit;
+
+    /**
+     * Obtiene el valor de la propiedad category.
+     * 
+     */
+    public int getCategory() {
+        return category;
+    }
+
+    /**
+     * Define el valor de la propiedad category.
+     * 
+     */
+    public void setCategory(int value) {
+        this.category = value;
+    }
+
+    /**
+     * Obtiene el valor de la propiedad limit.
+     * 
+     */
+    public double getLimit() {
+        return limit;
+    }
+
+    /**
+     * Define el valor de la propiedad limit.
+     * 
+     */
+    public void setLimit(double value) {
+        this.limit = value;
+    }
+
+}

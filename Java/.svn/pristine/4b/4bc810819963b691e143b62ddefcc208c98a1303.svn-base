@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="S:/USUARIO/Downloads/lib/log4j.jar"/>
+	<classpathentry kind="lib" path="S:/Proyectos/Tesorería/Despiegues/partSaldos/partSaldos.jar"/>
+	<classpathentry kind="lib" path="S:/USUARIO/Downloads/lib/commons/commons-beanutils.jar"/>
+	<classpathentry kind="lib" path="S:/Proyectos/Tesorería/Despiegues/partSaldos/libs/interfaz.jar"/>
+	<classpathentry kind="lib" path="S:/USUARIO/Downloads/lib/jdom.jar"/>
+	<classpathentry kind="lib" path="S:/USUARIO/Downloads/lib/keyedreader.jar"/>
+	<classpathentry kind="lib" path="S:/USUARIO/Downloads/lib/keyedwr.jar"/>
+	<classpathentry kind="lib" path="S:/USUARIO/Downloads/lib/libase.jar"/>
+	<classpathentry kind="lib" path="S:/Proyectos/Tesorería/Despiegues/partSaldos/libs/pimessage.jar"/>
+	<classpathentry kind="lib" path="S:/USUARIO/Downloads/lib/SAX.JAR"/>
+	<classpathentry kind="lib" path="S:/Proyectos/Tesorería/Despiegues/partSaldos/libs/smartmod.jar"/>
+	<classpathentry kind="lib" path="S:/USUARIO/Downloads/lib/OS4690.ZIP"/>
+	<classpathentry kind="lib" path="S:/USUARIO/Downloads/lib/commons/comlog.jar"/>
+	<classpathentry kind="lib" path="C:/LoyaltyV7/lib/jtds.jar"/>
+	<classpathentry kind="lib" path="C:/LoyaltyV7/lib/commons-lang.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
